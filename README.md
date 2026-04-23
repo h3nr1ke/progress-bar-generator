@@ -4,7 +4,7 @@ Node.js tool that renders **PNG** progress bars from a **JSON** configuration. I
 
 ## Requirements
 
-- **Node.js** 18 or newer  
+- **Node.js** 18 or newer
 - **npm** (or another compatible package manager)
 
 ## Install
@@ -71,9 +71,9 @@ Array of `{ until, barColor }`, sorted by `until` ascending.
 
 Example (red / yellow / green):
 
-- `[0, 20)` → first color  
-- `[20, 60)` → second  
-- `[60, 100]` → third  
+- `[0, 20)` → first color
+- `[20, 60)` → second
+- `[60, 100]` → third
 
 Default thresholds in code: red / yellow / green style bands.
 
@@ -202,4 +202,4 @@ await writeProgressPng(config, './out/progress.png');
 
 ## License
 
-Add your license here if the project is published.
+MIT License

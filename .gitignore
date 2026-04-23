@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Build / cache
+*.tsbuildinfo
+.cache/
+
+# Generated images (CLI output)
+output/
