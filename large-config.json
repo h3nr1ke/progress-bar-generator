@@ -1,0 +1,27 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "barColor": "#0000FF",
+  "height": 72,
+  "width": 520,
+  "borderWidth": 3,
+  "borderColor": "#1a1a1a",
+  "borderRadius": 12,
+  "barBorderRadius": 8,
+  "padding": 6,
+  "margin": 12,
+  "outputDir": "./output/large",
+  "thresholds": [
+    { "until": 20, "barColor": "#c62828" },
+    { "until": 60, "barColor": "#f9a825" },
+    { "until": 100, "barColor": "#2e7d32" }
+  ],
+  "series": {
+    "from": 0,
+    "to": 100,
+    "step": 1,
+    "filenamePattern": "{percent}.png"
+  },
+  "showLabel": false,
+  "labelColor": "#1a1a1a",
+  "labelFontSize": 22
+}

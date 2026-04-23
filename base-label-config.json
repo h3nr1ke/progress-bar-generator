@@ -1,0 +1,27 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "barColor": "#0000FF",
+  "height": 32,
+  "width": 64,
+  "borderWidth": 1,
+  "borderColor": "#000000",
+  "borderRadius": 0,
+  "barBorderRadius": 0,
+  "padding": 1,
+  "margin": 0,
+  "outputDir": "./output/base/label",
+  "thresholds": [
+    { "until": 20, "barColor": "#c62828" },
+    { "until": 70, "barColor": "#f9a825" },
+    { "until": 100, "barColor": "#2e7d32" }
+  ],
+  "series": {
+    "from": 0,
+    "to": 100,
+    "step": 1,
+    "filenamePattern": "{percent}.png"
+  },
+  "showLabel": true,
+  "labelColor": "#000000",
+  "labelFontSize": 12
+}

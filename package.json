@@ -1,0 +1,17 @@
+{
+  "name": "progress-bar-generator",
+  "version": "1.0.0",
+  "description": "Gera imagens PNG de barras de progresso a partir de JSON",
+  "type": "module",
+  "main": "src/generate.js",
+  "scripts": {
+    "generate": "node src/cli.js",
+    "example": "node src/cli.js --config example.config.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
